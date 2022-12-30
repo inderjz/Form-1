@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Truck and Trailer Signs Info</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<div class="about-col-1">
+  <video autoplay controls loop muted>
+      <source src="./assets/video7.mp4" type="video/mp4">
+  </video>
+</div>
+<body> 
+
+    <div class="main">
+        <div class="register">
+        <h2>Please Fill Out the Information</h2>
+     
+        <form action="https://formspree.io/f/mzbqpnyp" method="POST" >
+          <input type="hidden" name="_subject" value="New Truck & Trailer Signs Submission!">
+             
+          <label> Phone Number : </label>
+          <br>
+          <input type="text" id="number" name="Phone Number" placehoder="Enter your Phone Number" required >
+          <br><br>
+
+                <label> Company Name : </label>
+                <br>
+                <input type="text" id="name" name="Company Name" placehoder="Enter your Company Name" required >
+                <br><br>
+
+                <label> Company USDOT Number : </label>
+                <br>
+                <input type="text" id="usdot" name="USDOT Number" placehoder="Enter your Company USDOT Number here" required >
+                <br><br>
+
+                <label> Company MC Number : </label>
+                <br>
+                <input type="text" id="mc" name="MC Number" placehoder="Enter your Company MC Number here" required >
+                <br><br>
+
+               
+                <label for="Vehicle"> Vehicle : </label>
+                <br>
+                <select name="Vehicle" id="vehicletype">
+                  <option value="">PLEASE SELECT ONE:)</option>
+                  <option value="Truck">Truck Only</option>
+                  <option value="Trailer">Trailer Only</option>
+                  <option value="Both">Both</option>
+                </select>
+                <br><br>
+             
+                <label for="Makeoftruck"> Make of Truck : </label>
+                <br>
+                <select name="Truck" >
+                  <option value="">DISREGARD IF CHOSEN TRAILER ONLY ABOVE:)</option>
+                  <option value="Freightliner">Freightliner</option>
+                  <option value="Volvo">Volvo</option>
+                  <option value="Kenworth">Kenworth</option>
+                  <option value="Peterbilt">Peterbilt</option>
+                  <option value="International">International</option>
+                  <option value="">None Above</option>
+                </select>
+                <br><br>
+
+                <label for="Model"> Model of Truck : </label>
+                <br>
+                <select name="Model" >
+                  <option value="">DISREGARD IF CHOSEN TRAILER ONLY ABOVE:)</option>
+                  <option value="Cascadia">Cascadia</option>
+                  <option value="VNL 860, VNL 760, VNL 780">VNL 860, VNL 760, VNL 780</option>
+                  <option value="T680, T660, T800, W900">T680, T660, T800, W900</option>
+                  <option value="389, 579, 389">389, 579, 389</option>
+                  <option value="Lonestar, LT Series, RH Series, Prostar">Lonestar, LT Series, RH Series, Prostar</option>
+                  <option value="">Other</option>
+                </select>
+                <br><br>
+
+                <label for="Year"> Year of Truck : </label>
+                <br>
+                <select name="Year" >
+                  <option value="">DISREGARD IF CHOSEN TRAILER ONLY ABOVE:)</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                </select>
+                <br><br>
+
+                <label for="Trailert Type"> Trailer Type : </label>
+                <br>
+                <select name="Trailer Type" >
+                  <option value="">DISREGARD IF CHOSEN TRUCK ONLY ABOVE:)</option>
+                  <option value="Refeer">Refeer</option>
+                  <option value="Dry Van">Dry Van</option>
+                </select>
+                <br><br>
+
+                <label> Truck Number : </label>
+                <br>
+                <input type="text" id="truck" name="Truck Number" placehoder="Enter your Truck Number here">
+                <br><br>
+
+                <label> Truck VIN Number : </label>
+                <br>
+                <input type="text" id="tvin" name="Truck VIN Number" placehoder="Enter your Truck VIN Number here">
+                <br><br>
+
+                <label> Trailer Number : </label>
+                <br>
+                <input type="text" id="trailer" name="Trailer Number" placehoder="Enter your Trailer Number here">
+                <br><br>
+
+                <label> Trailer VIN Number : </label>
+                <br>
+                <input type="text" id="tlvin" name="Trailer VIN Number" placehoder="Enter your Trailer VIN Number here">
+                <br><br>
+
+                <button type="submit" class="btn">SUBMIT</button>
+              </form>
+              </div>
+            </div> 
+        </div>
+    
+
+ </body>
+</html>
